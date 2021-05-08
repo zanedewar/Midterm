@@ -6,6 +6,10 @@ background: #e5e5e5;
 color: #3f3f3f;
 font-size: 16px;
 line-height: 24px;
+background-image: url("space.jpg");
+background-size: 100% 110%;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 a { color: #000088; }
@@ -66,7 +70,7 @@ border-bottom: 1px solid #e1e1e1;
 border-top: 1px solid #e1e1e1;
 }
 #topmenu ul { margin: 0; padding: 0; list-style-type: none;}
-#topmenu li { display: inline; padding: 0 20px 0 0 }
+#topmenu li { display: inline; padding: 0 23px 0 23px }
 #topmenu li a { text-decoration: none; 
 }
 
