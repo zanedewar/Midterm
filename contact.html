@@ -37,11 +37,11 @@
 				<img src="email.jpg" alt="Email" height="200"/>
 			</a>
 			<form action="thankyou.html" 
-			method="get"> <p>Name: <input type="text" name="userName" size="15"/></p>
+			method="get" id="contactForm"> <p>Name: <input type="text" name="userName" size="15"/></p>
 			<p>Email: <input type="email" name="userEmail" size="15"/></p>
-			<textarea>Comments: <input type="text" name="userComments" cols="10" rows="4"/></textarea>
-			<input type="submit" value="Submit"/>
 			</form>
+			<textarea rows="4" cols="20" name="userComments" form="contactForm"></textarea>
+			<input type="submit" value="Submit" form="contactForm"/>
 			<div class="clear"> </div>
 
 			</div>
