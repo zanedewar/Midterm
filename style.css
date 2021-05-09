@@ -40,10 +40,11 @@ background: #f9f9f9;
 padding: 20px 0 40px 0;
 }
 #header h1 {
+width: 100%;
 margin: 0;
 padding: 0 0 0 30px;
 font-weight: bold;
-color: #3f3f3f;
+color: #C0C0C0;
 font-size: 38px;
 line-height: 65px;
 letter-spacing: -1px;
@@ -52,15 +53,17 @@ letter-spacing: -1px;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
-margin: 0 0 0 20px; 
 padding: 5px 12px;
+margin-left: 20px;
 font-weight: normal;
 color: #171717;
 font-size: 22px;
 letter-spacing: -1px;
-background: #FFEE9F;
+background: #34ebeb;
 border: 1px solid #FFE25F;
-display: inline;
+display: inline-block;
+border-color: black;
+text-align: center;
 }
 
 #topmenu {
@@ -97,11 +100,22 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
 #menu ul li a:hover { color: #c12; border-bottom: 1px dotted #c12; }
 
 #content { float: left; width: 580px; margin: 10px 0 40px 20px;}
-#content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
+#content h2 { 
+font-weight: normal; 
+font-size: 22px; 
+line-height: 33px;
+text-decoration: underline;
+color: #d54aff;
+}
 #content h3 { font-size: 17px; font-weight: normal; }
 
-.cleft { float: left; width: 280px; margin: 10px 0; }
-.cright { float: right; width: 280px; margin: 10px 0; }
+#content p, ul, li{ color:#006633;}
+.cleft, #lArtifact { float: left; width: 280px; margin: 10px 0; }
+.cright, #rArtifact { float: right; width: 280px; margin: 10px 0; }
+#content li {
+	padding-left: 20px;
+	list-style-position: inside;
+}
 
 #footer { 
 -webkit-border-bottom-right-radius: 10px;
@@ -122,3 +136,6 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
+#header {
+	background: #3f3f3f;
+}
