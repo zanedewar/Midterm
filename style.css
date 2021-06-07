@@ -114,7 +114,8 @@ color: #d54aff;
 .cright, #rArtifact { float: right;}
 #Artifact3 {float: left;}
 #Artifact4 {float: right;}
-#lArtifact, #rArtifact, #Artifact3, #Artifact4 {width:280px; text-align:center; margin: 10px 0;}
+#Artifact5 {position: relative; padding-left: 152px; text-align:center;}
+#lArtifact, #rArtifact, #Artifact3, #Artifact4, #Artifact5 {width:280px; text-align:center; margin: 10px 0;}
 
 #content li {
 	padding-left: 20px;
