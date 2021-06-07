@@ -110,8 +110,12 @@ color: #d54aff;
 #content h3 { font-size: 17px; font-weight: normal; }
 
 #content p, ul, li{ color:#006633;}
-.cleft, #lArtifact { float: left; width: 280px; margin: 10px 0; }
-.cright, #rArtifact { float: right; width: 280px; margin: 10px 0; }
+.cleft, #lArtifact { float: left;}
+.cright, #rArtifact { float: right;}
+#Artifact3 {float: left;}
+#Artifact4 {float: right;}
+#lArtifact, #rArtifact, #Artifact3, #Artifact4 {width:280px; text-align:center; margin: 10px 0;}
+
 #content li {
 	padding-left: 20px;
 	list-style-position: inside;
