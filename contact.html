@@ -37,11 +37,13 @@
 				<img src="email.jpg" alt="Email" height="200"/>
 			</a>
 			<form action="thankyou.html" 
-			method="get" id="contactForm"> <p>Name: <input type="text" name="userName" size="15"/></p>
-			<p>Email: <input type="email" name="userEmail" size="15"/></p>
+			method="get" id="contactForm" onSubmit="return validateForm()"> <p>Name: <input type="text" id="userName" size="15"/></p>
+			<p>Email: <input type="email" id="userEmail" size="15"/></p>
 			</form>
-			<textarea rows="4" cols="20" name="userComments" form="contactForm"></textarea>
+			<textarea rows="4" cols="20" id="userComments" form="contactForm"></textarea>
 			<input type="submit" value="Submit" form="contactForm"/>
+			<div id="errorMessages">
+			</div>
 			<div class="clear"> </div>
 
 			</div>
@@ -100,5 +102,6 @@
 				</div>
 
 		</div>
+		<script src="Midtermjs.js"></script>
 	</body>
 </html>
